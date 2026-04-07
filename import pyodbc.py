@@ -1,11 +1,15 @@
 import pyodbc
 import pandas as pd
+from dotenv import load_dotenv
+import os
+
+load_dotenv()
 
 conn = pyodbc.connect(
-    "DRIVER={SQL Server};"
-    "SERVER=CHORCHOX-PCGAMI\MSSQLSERVER01;"
-    "DATABASE=AdventureWorksDW2022;"
-    "Trusted_Connection=yes;"
+    f"DRIVER={{SQL Server}};"
+    f"SERVER={os.getenv('SERVER')};"
+    f"DATABASE={os.getenv('DATABASE')};"
+    f"Trusted_Connection=yes;"
 )
 
 query = """

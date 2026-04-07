@@ -25,4 +25,3 @@ y transformación de datos, y Power BI para visualización.
 - Total de ventas: $29.358.677
 =======
 - Total de ventas: $29.358.677
->>>>>>> 6bbe56e9c7799624f87c5ff12d6770ea456f68ff
