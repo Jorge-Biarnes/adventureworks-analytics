@@ -4,6 +4,8 @@ from dotenv import load_dotenv
 import os
 
 load_dotenv()
+print(os.getenv('SERVER'))
+print(os.getenv('DATABASE'))
 
 conn = pyodbc.connect(
     f"DRIVER={{SQL Server}};"
