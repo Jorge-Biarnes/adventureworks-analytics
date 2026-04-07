@@ -3,7 +3,7 @@ import pandas as pd
 from dotenv import load_dotenv
 import os
 
-load_dotenv()
+load_dotenv(r'C:\Users\Chorchox\Desktop\GitHub-Proyectos\AdventureWorks-Analytics\.env')
 print(os.getenv('SERVER'))
 print(os.getenv('DATABASE'))
 
