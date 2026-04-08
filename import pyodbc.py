@@ -6,7 +6,7 @@ import os
 
 load_dotenv()
 
-# CONEXIÓN A LA BASE DE DATOS
+# CONEXIÓN A LA BASE DE DATOS-
 conn = pyodbc.connect(
     f"DRIVER={{SQL Server}};"
     f"SERVER={os.getenv('SERVER')};"

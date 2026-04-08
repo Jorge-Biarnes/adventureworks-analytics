@@ -25,5 +25,5 @@ y transformación de datos, y Power BI para visualización.
 - Total de ventas: $29.358.677
 
 ## 📋 NOTAS
-- El año 2010 solo tenemos los ultimos dias del mes de Diciembre
-- Lo mismo pasa con el año 2014 que contamos unicamente con Enero
+- El año 2010 solo tenemos los ultimos dias del mes de Diciembre.
+- Lo mismo pasa con el año 2014 que contamos unicamente con Enero.
